@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ayaSaleh717/flower.git/static/css/main.c900a9dc.css",
-    "main.js": "/ayaSaleh717/flower.git/static/js/main.a6422d28.js",
-    "index.html": "/ayaSaleh717/flower.git/index.html",
-    "main.c900a9dc.css.map": "/ayaSaleh717/flower.git/static/css/main.c900a9dc.css.map",
-    "main.a6422d28.js.map": "/ayaSaleh717/flower.git/static/js/main.a6422d28.js.map"
+    "main.css": "/flower.git/static/css/main.c900a9dc.css",
+    "main.js": "/flower.git/static/js/main.a6422d28.js",
+    "index.html": "/flower.git/index.html",
+    "main.c900a9dc.css.map": "/flower.git/static/css/main.c900a9dc.css.map",
+    "main.a6422d28.js.map": "/flower.git/static/js/main.a6422d28.js.map"
   },
   "entrypoints": [
     "static/css/main.c900a9dc.css",
