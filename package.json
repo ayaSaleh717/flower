@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ayaSaleh717.github.io/flower.git",
-  "name": "Flower Shop",
+  "homepage": ".",
+  "name": "Flower_Shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
