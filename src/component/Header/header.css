@@ -1,0 +1,96 @@
+.nav_main {
+  background-color: #fff0f5; /* Light lavender pink */
+  border-radius: 12px;        /* Soft rounded corners */
+  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.15); /* Soft violet shadow */
+  padding: 15px 30px;
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #f3d1e3; /* Subtle border */
+}
+
+
+
+.span-a {
+  color: #8A2BE2;
+  /* Violet */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 10px;
+  font-weight: lighter;
+  transition: color 0.2s ease-in-out;
+  display: inline-block;
+  font-weight: bold;
+ 
+  position: relative;
+  animation: moveSideways 4s ease-in-out infinite;
+}
+
+.nav_main a:hover {
+  color: #DA70D6;
+  /* Orchid pink on hover */
+}
+
+
+
+#ex4 .p1[data-count]:after {
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  content: attr(data-count);
+  font-size: 40%;
+  padding: .2em;
+  border-radius: 50%;
+  line-height: 1em;
+  color: white;
+  background: rgba(255, 0, 0, .85);
+  text-align: center;
+  min-width: 18px;
+}
+
+#ex4 .fa-stack {
+  width: 1.5em;
+}
+
+.brand-name {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #af89a5;
+  /* Elegant violet */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.brand-name::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  background-color: #853f3f;
+  margin: 8px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.brand-name:hover::after {
+  width: 120px;
+}
+
+
+@keyframes moveSideways {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100px;  /* move 100px to the right */
+  }
+  100% {
+    left: 0;
+  }
+}
